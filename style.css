@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(80, 117, 150);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.title{
+    text-align: center;
+    font-size: 40;
+    text-shadow: #ba7f00;
+}
