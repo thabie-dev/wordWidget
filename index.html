@@ -11,9 +11,27 @@
 <h1>Word widget</h1>
 </header>
 <body>
+
     <div class="title">
-    <input type="text" class="sentence">
-    <button class="textBtn">Show Text</button>
-</div>
+    <input type="text" class="maxWordCount" placeholder="enter max word count">   
+    <input type="text" class="sentence" placeholder="enter your sentence">
+    <button class="analyse-btn">Analyse</button>
+    <div calss="output-sentence"></div>
+    <div class="">
+        Number of words in a sentence: <span class="wordCount">4</span>
+    </div>
+    
+        <div class="errorMessage">
+            Soorry, this is too low!
+        </div>
+    </div>
+    <div class="hideWords">
+    <input type="checkbox" id="hide-words" />
+        <label for="hideWords">Hide all words fewer than five characters long.</label>
+    </div>
+
+    <script scr="widgets.js"></script>
+   <script scr="widgets.dom.js"></script> 
+
 </body>
 </html>
