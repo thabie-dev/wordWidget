@@ -27,3 +27,21 @@ body{
 .hideWords{
     text-align: center;
 }
+.footer{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;  
+        padding-bottom: 2em;
+}
+
+.highlight{
+    background-color: rgb(217, 255, 0);
+    margin-right:0.2em;
+    margin-left:0.2em;  
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+   
+}

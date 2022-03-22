@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"href="./style.css">
+    
 </head>
 <header class="title">
 <h1>Word widget</h1>
@@ -16,22 +17,26 @@
     <input type="text" class="maxWordCount" placeholder="enter max word count">   
     <input type="text" class="sentence" placeholder="enter your sentence">
     <button class="analyse-btn">Analyse</button>
-    <div calss="output-sentence"></div>
+    <div class="output-sentence content"></div>
     <div class="">
         Number of words in a sentence: <span class="wordCount">4</span>
     </div>
     
         <div class="errorMessage">
-            Soorry, this is too low!
+           
         </div>
+
     </div>
     <div class="hideWords">
-    <input type="checkbox" id="hide-words" />
-        <label for="hideWords">Hide all words fewer than five characters long.</label>
+    <input class="Hidden-words" type="checkbox" value="yes" id="hide-words" checked/>
+    <label for="hideWords">Hide all words fewer than five characters long.</label>
     </div>
-
+    <script src="index.js"></script>
     <script scr="widgets.js"></script>
    <script scr="widgets.dom.js"></script> 
-
+   
 </body>
+<div class="footer">
+    <h3> Thabile Dube | tdwidgets.co | Codex Workplace incubation 2022</h3>
+  </div>
 </html>
